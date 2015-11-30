@@ -308,7 +308,7 @@ var keyHandlers = {
         // left behind an empty inline tag.
         else {
             self.setSelection( range );
-            setTimeout( function () { afterDelete( self ); }, 0 );
+            setTimeout( function () { afterDelete( self ); }, 50 );
         }
     },
     'delete': function ( self, event, range ) {
